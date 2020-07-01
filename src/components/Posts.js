@@ -8,7 +8,7 @@ class Posts extends Component {
     }
     componentWillReceiveProps(nextProps) {
         if(nextProps.newPost) {
-            this.props.post.unshift(nextProps.newPost);
+            this.props.posts.unshift(nextProps.newPost);
         }
 
     }

@@ -49,10 +49,10 @@ class Postform extends Component {
           </form>
           
             </div>
-        )
+        );
     }
 }
 Postform.propTypes = {
     createPost: PropTypes.func.isRequired
 };
-export default connect()(null, { createPost })(Postform);
+export default connect(null, { createPost })(Postform);
